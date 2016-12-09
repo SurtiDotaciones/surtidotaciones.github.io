@@ -1,0 +1,16 @@
+/* This is a test of styles for SurtiDotaciones */
+
+/*Se importa una fuente del sitio Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/* Define the tipography*/
+.h1, .h2, .h3, .h4, .a, h1, h2, h3, h4, a {
+	font-family: "Lato", Helvetica, Verdana, sans-serif;
+	color: #a9a9a9;
+}
+
+p {
+	font-family: "Lato", Helvetica, Verdana, sans-serif;
+	color: #838383;
+}
