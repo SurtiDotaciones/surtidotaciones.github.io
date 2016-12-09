@@ -19,3 +19,7 @@ p {
 .navbar{
     border-radius: 0px;
 }
+
+.placeholder {  
+   font-style: italic; 
+}
