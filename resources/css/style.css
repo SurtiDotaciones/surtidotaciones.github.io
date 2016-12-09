@@ -20,6 +20,16 @@ p {
     border-radius: 0px;
 }
 
-.placeholder {  
+/*Make the placeholder italic*/
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;  
+}
+::-moz-placeholder {
+   font-style: italic;  
+}
+:-ms-input-placeholder {  
    font-style: italic; 
 }
