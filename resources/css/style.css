@@ -20,6 +20,11 @@ p {
     border-radius: 0px;
 }
 
+.navbar.navbar-default .nav-collapse {
+	background-color: #f8f8f8; 
+}
+
+
 /*Make the placeholder italic*/
 ::-webkit-input-placeholder {
    font-style: italic;
@@ -33,3 +38,71 @@ p {
 :-ms-input-placeholder {  
    font-style: italic; 
 }
+
+/* Proof of navbar */
+.mynavbar {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.mynavbar * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.mynavbar li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1.2em;
+  padding: 0;
+}
+.mynavbar a {
+  padding: 0 0.6em;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  text-decoration: none;
+}
+.mynavbar a:before,
+.mynavbar a:after {
+  width: 3px;
+  height: 0;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #1abc9c;
+}
+.mynavbar a:before {
+  top: 0;
+  right: 0;
+}
+.mynavbar a:after {
+  bottom: 0;
+  left: 0;
+}
+.mynavbar a:hover,
+.mynavbar .current a {
+  color: #ffffff;
+}
+.mynavbar a:hover:before,
+.mynavbar .current a:before,
+.mynavbar a:hover:after,
+.mynavbar .current a:after {
+  height: 100%;
+}
+
+/*Search Style */
+.btn-default:hover {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #ccc;
+}
+
+/* Navbar */
+.navbar{
+	padding: 10px;
+}
+
