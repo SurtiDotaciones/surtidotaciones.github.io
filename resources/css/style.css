@@ -3,9 +3,8 @@
 /*Se importa una fuente del sitio Google Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-
 /* Define the tipography*/
-.h1, .h2, .h3, .h4, .a, h1, h2, h3, h4, a {
+.h1, .h2, .h3, .h4, .a, input, h1, h2, h3, h4, a {
 	font-family: "Lato", Helvetica, Verdana, sans-serif;
 	color: #a9a9a9;
 }
@@ -116,6 +115,16 @@ p {
 	padding: 10px;
 	padding-left: 50px;
     padding-right: 50px;
+
+}
+
+.navbar-inverse {
+    background-color: #334d66;
+}
+
+.navbar-default {
+    background-color: #cddae6;
+    border-color: #9ab4cd;
 }
 
 /* Search */
@@ -126,5 +135,5 @@ p {
 
 /* Footer */
 .footer {
-	background-color: #eee;
+	background-color: #dee6ef;
 }
