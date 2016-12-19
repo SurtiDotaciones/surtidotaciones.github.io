@@ -4,14 +4,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 /* Define the tipography*/
-.h1, .h2, .h3, .h4, .a, input, h1, h2, h3, h4, a {
+body {
 	font-family: "Lato", Helvetica, Verdana, sans-serif;
-	color: #a9a9a9;
-}
-
-p {
-	font-family: "Lato", Helvetica, Verdana, sans-serif;
-	color: #838383;
+	color: #373737;
 }
 
 /* Delete the border on navbar */
@@ -142,3 +137,7 @@ p {
 .mybrand > img {
 
 }
+
+/* Jumbotron */
+.jumbotron {
+	background-color: #cde6d9;
